@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Anees Sofiyyah's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Anees Sofiyyah</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div id="portfolio">
+     <div id="hireMeWidget" class="hire-me-widget" aria-label="Hire Me Widget" role="complementary">
+        <button id="hireMeButton" aria-label="Hire Me Button">Hire Me</button>
+        <div id="contactPopup" class="contact-popup" role="dialog" aria-hidden="true">
+          <h4>Contact Me</h4>
+          <p>Email: <a href="mailto:you@example.com">a.sofiyyah2003@gmail.com</a></p>
+          <p>Phone: <a href="tel:+123456789">+60 11-56889609</a></p>
+        </div>
+      </div>
+    <div class="container fade-in">
+        <section id="profile" class="profile-section">
+            <div class="profile-container">
+              <div class="profile-image-box">
+                <img src="profile2.jpg" alt="Anees Sofiyyah binti Zuhar" class="profile-image" />
+              </div>
+              <div class="profile-about-box">
+                <h2>HI! I'm Anees Sofiyyah</h2>
+                <p>
+                  Final-year Diploma student in e-Business Technology with hands-on experience in Laravel API development, front-end technologies, and UI/UX design. Proficient in HTML, CSS, JavaScript, and VB.NET, with a solid grasp of software development workflows and user interface best practices. Completed an internship involving real-world system building and interface prototyping using Lunacy. A quick learner, passionate about contributing to tech-driven teams and applying classroom knowledge in practical, impactful ways.
+                </p>
+              </div>
+            </div>
+          </section>
+    
+        <section id="education">
+          <h2>Education</h2>
+          <div class="timeline-line"></div>
+          <div class="timeline-buttons">
+            <button class="active" data-target="edu1">SMK Yam Tuan Radin</button>
+            <button data-target="edu2">YPC International College</button>
+          </div>
+          <div id="edu1" class="timeline-content show">
+            <strong>SMK Yam Tuan Radin, Siliau, Negeri Sembilan</strong> — Sijil Pelajaran Malaysia (SPM) (2020 - 2021)
+          </div>
+          <div id="edu2" class="timeline-content">
+            <strong>YPC International College, Kuala Lumpur</strong> — Diploma in e-Business Technology (2022 - Present)
+          </div>
+        </section>
+    
+        <section id="experience">
+          <h2>Work Experience</h2>
+          <div class="timeline-line"></div>
+          <div class="timeline-buttons">
+            <button class="active" data-target="exp1">Retail Associate</button>
+            <button data-target="exp2">Intern</button>
+          </div>
+          <div id="exp1" class="timeline-content show">
+            <p><strong>Retail Associate (Part-Time), SALFIZ BOUTIQUE, Seremban</strong> — Apr 2021 - May 2021</p>
+            <ul>
+              <li>Advised customers on clothing styles and product suggestions.</li>
+              <li>Organized and maintained store inventory and presentation.</li>
+              <li>Managed transactions efficiently using cash and digital methods.</li>
+            </ul>
+          </div>
+          <div id="exp2" class="timeline-content">
+            <p><strong>Matrix Tech Management Sdn Bhd, Kuala Lumpur</strong> — Jan 2025 - May 2025</p>
+            <ul>
+              <li>Developed and tested RESTful APIs using Laravel 12.3, focusing on backend functionality without Blade templates.</li>
+              <li>Designed and prototyped user interfaces using Lunacy to support internal web applications.</li>
+              <li>Implemented backend logic, including controller development and database migrations.</li>
+              <li>Documented internship activities and compiled structured supervisor evaluations and progress reports.</li>
+              <li>Conducted API testing, identified bugs, and supported smooth system flow through team collaboration.</li>
+            </ul>
+          </div>
+        </section>
+    
+        <section id="skills">
+            <h2>Skills</h2>
+          
+            <div class="skills-buttons">
+              <button class="active" data-skill="soft">Soft Skills</button>
+              <button data-skill="Web-Technologies">Web Technologies Skills</button>
+              <button data-skill="Desktop-Development">Desktop Development Skills</button>
+              <button data-skill="Framework">Framework & Tools Skills</button>
+              <button data-skill="Office-software">Office-software Skills</button>
+            </div>
+
+          <div class="skills-content-wrapper">
+             <!-- Soft Skills -->
+            <div id="soft" class="skills-content show">
+              <ul class="skill-list">
+                <li><i class="fas fa-comments"></i> Communication
+                  <div class="skill-bar"><div class="bar-fill" style="width: 55%;"></div></div>
+                </li>
+                <li><i class="fas fa-clock"></i> Time Management
+                  <div class="skill-bar"><div class="bar-fill" style="width: 60%;"></div></div>
+                </li>
+                <li><i class="fas fa-search"></i> Research
+                  <div class="skill-bar"><div class="bar-fill" style="width: 80%;"></div></div>
+                </li>
+              </ul>
+            </div>
+          
+            <!-- Web Technologies Skills -->
+            <div id="Web-Technologies" class="skills-content">
+              <ul class="skill-list">
+                <li><i class="fab fa-html5"></i> HTML
+                  <div class="skill-bar"><div class="bar-fill" style="width: 90%;"></div></div>
+                </li>
+                <li><i class="fab fa-css3-alt"></i> CSS
+                  <div class="skill-bar"><div class="bar-fill" style="width: 75%;"></div></div>
+                </li>
+                <li><i class="fab fa-js"></i>  JavaScript
+                  <div class="skill-bar"><div class="bar-fill" style="width: 70%;"></div></div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Desktop Development Skills -->
+              <div id="Desktop-Development" class="skills-content">
+              <ul class="skill-list">
+                <li><i class="fas fa-code"></i> VB.NET
+                  <div class="skill-bar"><div class="bar-fill" style="width: 70%;"></div></div>
+                </li>
+              </ul>
+            </div>
+
+
+            <!-- Framework & Tools Skills -->
+            <div id="Framework" class="skills-content">
+              <ul class="skill-list">
+                <li><i class="fab fa-laravel"></i> Laravel 12.3
+                  <div class="skill-bar"><div class="bar-fill" style="width: 40%;"></div></div>
+                </li>
+                <li><i class="fas fa-vector-square"></i> Lunacy
+                  <div class="skill-bar"><div class="bar-fill" style="width: 75%;"></div></div>
+                </li>
+                <li><i class="fas fa-vial"></i> PostMan
+                  <div class="skill-bar"><div class="bar-fill" style="width: 75%;"></div></div>
+                </li>
+                <li><i class="fab fa-git-alt"></i> Git
+                  <div class="skill-bar"><div class="bar-fill" style="width: 40%;"></div></div>
+                </li>
+              </ul>
+            </div>
+            <!-- Office-software Skills -->
+            <div id="Office-software" class="skills-content">
+              <ul class="skill-list">
+                <li><i class="fas fa-file-word"></i> Microsoft Word
+                  <div class="skill-bar"><div class="bar-fill" style="width: 90%;"></div></div>
+                </li>
+                <li><i class="fas fa-file-excel"></i> Microsoft Excel
+                  <div class="skill-bar"><div class="bar-fill" style="width: 75%;"></div></div>
+                </li>
+                <li><i class="fas fa-file-powerpoint"></i> Microsoft PowerPoint
+                  <div class="skill-bar"><div class="bar-fill" style="width: 80%;"></div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+           
+            <section id="languages">
+                <h2>Languages</h2>
+                <div class="timeline-content show" style="max-width: 300px; margin-top: 0;">
+                  <ul class="language-list">
+                    <li>🇲🇾 Malay — <span class="proficiency">Native</span></li>
+                    <li>🇬🇧 English — <span class="proficiency">Fluent</span></li>
+                  </ul>
+                </div>
+              </section>
+          </section>
+    
+          <section id="contact">
+            <h2>Contact</h2>
+            <div class="timeline-content show" style="max-width: 400px; margin-top: 0;">
+              <p><span class="contact-icon">📧</span> Email: <a href="mailto:a.sofiyyah2003@gmail.com">a.sofiyyah2003@gmail.com</a></p>
+              <p><span class="contact-icon">📞</span> Phone: +60 11-56889609</p>
+              <p><span class="contact-icon">📍</span> Location: Negeri Sembilan, Malaysia</p>
+            </div>
+          </section>
+      </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Anees Sofiyyah. All rights reserved.
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
